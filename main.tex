@@ -1,0 +1,45 @@
+\documentclass[11pt]{article}
+% \usepackage[utf8]{inputenc}
+% \usepackage{amsfonts}
+\usepackage{cs282}
+\usepackage{markup}
+\usepackage{macros}
+\usepackage{amsmath}
+\usepackage{graphicx} %for includegraphics
+\usepackage{float}
+\usepackage{algorithm} % for algorithm environment
+\usepackage[symbol]{footmisc}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+% Toggle comment between the following two lines to see/hide solutions
+\newcommand{\sol}[1]{{\vspace{2pt} \color{blue} \textbf{Solution: } #1}} % solutions in blue
+%\newcommand{\sol}[1]{} % no solution sketches
+
+\def\title{Final Project Problem Set}
+\date{Fall 2022}
+
+\begin{document}
+
+\maketitle
+
+
+\begin{qunlist}
+    % Include any questions here with \input{}
+    \input{problems/reg_weightdecay_decouple.tex}
+
+    \input{problems/coding.tex}
+    
+    %\input{problems/(optional)Adam}
+    
+    % \input{grading.tex}
+
+    \newpage
+\end{qunlist}
+
+\begin{thebibliography}{00}
+    \input{bib}
+    % \footnote[1]{These sources were not directly cited in the paper, but were referenced to better understand the concepts (Adaptive Methods, Adam, etc.) and creating the problem set.}
+    \newpage
+\end{thebibliography}
+
+\end{document}
